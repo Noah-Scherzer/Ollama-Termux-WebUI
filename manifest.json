@@ -1,0 +1,16 @@
+{
+  "name": "ChatAI",
+  "short_name": "ChatAI",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "description": "Meine eigene KI-Weboberfläche",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
