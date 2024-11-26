@@ -3,9 +3,9 @@ An open source ollama web ui for Android Using termux.
 
 If you want to use the WebUI offline you need to 
 
--download the files 
+-download the files as a zip
 
--open index.html in your browser
+-open downloaded index.html in your browser
 
 -install the progressive web app on your homescreen
 
