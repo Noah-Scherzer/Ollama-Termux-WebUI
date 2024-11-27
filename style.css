@@ -14,7 +14,7 @@ html, body {
 }
 
 #chatbox {
-    background-color: #0f0f0f;
+    background-color: #0b0b0b;
     position: absolute;
     top: 0;
     bottom: 60px; /* Höhe des input-container */
@@ -29,12 +29,13 @@ html, body {
     bottom: 0;
     width: 100%;
     display: flex;
-    background-color: #0f0f0f;
+    background-color: #0b0b0b;
     padding: 10px;
     box-sizing: border-box;
 }
 
 #user-input {
+    font-family: "Roboto", serif;
     resize: none;
     min-height: 50px; /* Anfangshöhe, anpassbar */
     max-height: 500px; /* Maximale Höhe, anpassbar */
@@ -65,6 +66,7 @@ html, body {
     margin-left: 10px;
     border-radius: 50px;
     border: 0;
+    user-select: none;
 }
 
 /* Vorhandene Styles bleiben bestehen */
@@ -87,7 +89,7 @@ html, body {
 /* Nachrichtenblase */
 .message-bubble {
     padding: 10px;
-    border-radius: 30px;
+    border-radius: 25px;
     max-width: 80%;
     word-wrap: break-word;
 }
